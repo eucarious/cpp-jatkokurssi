@@ -19,5 +19,7 @@ int main ()
     }
 
     std::cout << "Pi is " << ((float)(4 * hits)/(float)max_attempts);
+
+    
     return 0; 
 }
