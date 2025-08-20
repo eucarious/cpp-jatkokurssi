@@ -9,7 +9,7 @@ int main ()
 { 
     std::srand(std::time(0));
     int hits = 0;
-    int max_attempts = 1000000;
+    int max_attempts = 1200000;
     for (int i = 0 ; i < max_attempts ; i++) 
     {
         float x = -1 + 2*((float)std::rand()/RAND_MAX);

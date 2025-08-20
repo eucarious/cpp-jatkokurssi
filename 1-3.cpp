@@ -7,7 +7,6 @@
 
 std::vector<int> debug_list = {1,2,3,4,5,6,7,8,9,10}; // works
 
-
 int sum(const std::vector<int>& data, int i_start, int i_end) // incl. - excl.
 {
     int total = 0;
