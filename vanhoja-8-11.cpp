@@ -123,7 +123,10 @@ int main ()
 
     std::cout << "I think I'm in hell. " << std::endl << "I've been here for " << someguy->age << " years" << std::endl ;
     std::cout << "I think I'm in hell. " << std::endl << "I've been here for " << thatguy.operator*().age << " years" << std::endl ;
-    // THIS WORKS. BUT ALSO I DONT THINK THIS IS THE RIGHT WAY. whatever. i'll just die from memory leak
+
     thatguy.~Log_Ptr();
     return 0; 
-}
+} // oops! all memory leaks!. 
+// anyways. yeah this isnt behaving like i expected it to.
+// ,mmmmmmmwhateva. next. 
+// i gotta get to the demo work :,) conway save me (he won't)
